@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*Section#1*/
+.main-head{
+    background-image: url(images/donate.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+.main-head h1{
+    padding: 80px;
+    color: green;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-head p{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+    margin: 50px;
+   
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 5px;
+    background: linear-gradient(orange, tomato);
+    margin-left:50%;
+}
+
+
+
+/*Section#2*/
+
+.donate h1{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+}
+
+.donate p{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+}
+
+
+/*Section#3*/
+#header-donate{
+    font-size: 50px;
+    text-align: center;
+    color: green;
+}
+
+.donate-para{
+    font-size: 30px;
+    color: red;
+    margin-top: 10px;
+}
+
+
+
+/*Section#3*/
+#taka{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 100px;
+}
+
+.amount{
+    display:inline-block;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(100, 96, 96);
+          
+}
+
+#small{
+    border: 3px solid tomato;
+   
+    padding: 30px 50px;
+    border-radius: 10px;  
+    background-color: rgb(238, 196, 189);
+}
+
+
+
+/*Section#4*/
+.box .box-1{
+    border: none;
+    font-size: 35px;
+    margin-left: 50%;
+    margin-bottom: 50px;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    
+}
+
+
+.link-button-2{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 15px;
+    border-radius: 5px;
+    background: linear-gradient(orange, tomato);
+    margin-left:50%;
+}
+
+
+    
+/*Section#5*/
+
+.donate-plan h1{
+    margin-top: 30px;
+    font-size: 50px;
+    color: blue;
+    text-align: center; 
+
+}
+
+.donate-plan p{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 35px;
+}
+
+
+
+/*Section#6*/
+.donate-card .card{
+    display: inline-block;
+    width: 30%;
+    height: 400px;
+    box-shadow: 5px 5px 10px;
+    margin: 20px;
+}
+
+.donate-card .card h3,p{
+    margin-left: 20px;
+}
+
+.donate-card img{
+    margin-top: 30px;
+    margin-left: 50%;
+}
+
+
+
+/*Section#7*/
+form h1{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+    color: blue; 
+}
+
+form label,input{
+    font-size: 20px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+form{
+    margin-bottom: 50px;
+}
+
+
+/*Section#8*/
+.email-sub-box{
+width: 700px;
+height: 200px;
+background-color: rgb(177, 120, 47);
+margin-bottom: 30px;
+margin-left: 30%;
+}
+
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(1, 29, 1);
+}
+
+footer h1,p{
+    text-align: center;
+    color: white;
+}
+
+footer h1{
+    text-align: center;
+    padding-top: 80px;
+}
